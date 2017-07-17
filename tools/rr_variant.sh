@@ -40,6 +40,8 @@ echo -e ${blu}" 〉 7- Experimental "${txtrst}${red}"︱ Only for the experiment
 echo -e "";
 echo -e ${blu}" 〉 8- Final "${txtrst}${red}"       ︱ Only for the final releases by the RR-Team"${xtrst}
 echo -e "";
+echo -e ${blu}" 〉 9- Tunderized "${txtrst}${red}"       ︱ Only for real Tunderized people"${xtrst}
+echo -e "";
 echo -e ${blu}" 🕑  30/sec Time-out"${txtrst}${red}"︱ Default option"${txtrst}
 echo -e "";
 echo -e ${cya}" ▼ Pick a number"${txtrst}
@@ -122,6 +124,16 @@ then
 echo -e "";
 echo -e ${blu}" ▪ Building final variant "${txtrst}
 export RR_BUILDTYPE=Final
+echo -e "";
+echo -e "";
+$normal
+sleep 1
+fi
+if [ "$askvariant" == "9" ]
+then
+echo -e "";
+echo -e ${blu}" ▪ Building Tunderized variant "${txtrst}
+export RR_BUILDTYPE=Tunderized
 echo -e "";
 echo -e "";
 $normal
