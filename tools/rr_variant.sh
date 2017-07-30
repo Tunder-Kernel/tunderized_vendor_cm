@@ -42,7 +42,7 @@ echo -e ${blu}" 〉 8- Final "${txtrst}${red}"       ︱ Only for the final rele
 echo -e "";
 echo -e ${blu}" 〉 9- Tunderized "${txtrst}${red}"       ︱ Only for real Tunderized people"${xtrst}
 echo -e "";
-echo -e ${blu}" 🕑  30/sec Time-out"${txtrst}${red}"︱ Default option"${txtrst}
+echo -e ${blu}" 〉 30/sec Time-out"${txtrst}${red}" ︱ Default option"${txtrst}
 echo -e "";
 echo -e ${cya}" ▼ Pick a number"${txtrst}
 echo -e "";
