@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
     ResurrectionOTA \
     ResurrectionStats \
     AudioFX \
-    Launcher3 \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
@@ -188,6 +187,7 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch \
     OmniJaws \
+    PixelLauncher \
     ThemeInterfacer
 
 
